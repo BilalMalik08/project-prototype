@@ -9,13 +9,9 @@ function PhoneLeft() {
         <div className="phone">
           <img src={phone} alt="" />
           <div className="phone-screen">
-            <video
-              className="phone-app-vid"
-              src={phoneVideo}
-              autoPlay
-              loop
-              controls
-            ></video>
+            <video className="phone-app-vid" autoPlay controls muted loop>
+              <source src={phoneVideo} type="video/mp4" />
+            </video>
           </div>
         </div>
       </div>

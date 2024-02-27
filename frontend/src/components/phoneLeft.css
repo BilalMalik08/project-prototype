@@ -19,7 +19,7 @@
     width: 282px;
     height: 590px;
     position: absolute;
-    border: 5px solid #c2bdbd;
+    border: 5px solid black;
     border-radius: 27px;
     overflow: scroll;
 }
