@@ -24,7 +24,7 @@ function HeroTopRight() {
               submitting visa applications of the highest quality.
             </p>
 
-            <p className="card-texthero-top-right-card-text mb-2">
+            <p className="card-text hero-top-right-card-text mb-2">
               Call us on (+353) 874797439 for immediate support and advice with
               your immigration case. We can speak over the phone or by zoom and
               google meet.
