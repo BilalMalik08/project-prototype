@@ -16,7 +16,60 @@
     width: 100%;
 }
 
+.carousel-caption {
+    cursor: default;
+    top: 30%;
+    left: -25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
 
+.carousel-caption.show {
+    opacity: 1;
+}
+
+.carousel-caption span:hover {
+    color: red;
+    cursor: default;
+}
+
+.carousel-heading {
+    font-weight: 700;
+}
+
+.carousel-para {
+    font-weight: 700;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.carousel-caption.animated {
+    animation: slideInFromBottom 0.5s ease forwards;
+}
+
+.carousel-heading {
+    font-size: 55px;
+}
+
+.carousel-para {
+    font-size: 50px;
+}
 
 
 @media only screen and (min-width: 481px) and (max-width: 820px) {

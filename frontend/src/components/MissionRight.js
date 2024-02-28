@@ -7,39 +7,32 @@ function MissionRight() {
         <div className="card mission-right-card">
           <div className="card-body mission-right-card-body">
             <h1 className="card-title mission-right-card-title mb-4">
-              Our Mission
+              Why choose us?
             </h1>
-            <p className="card-subtitle mission-right-card-text mb-2">
-              Equality Immigration,
+
+            <p className="card-text mission-right-card-text mb-2">
+              Support, advice, information and the necessary representation.
             </p>
 
             <p className="card-text mission-right-card-text mb-2">
-              Our mission is to redefine the travel experience by providing
-              unforgettable journeys with a touch of professionalism and
-              expertise.
+              Are you looking for a visa to enter, live, travel, work and invest
+              in Ireland?
             </p>
 
             <p className="card-text mission-right-card-text mb-2">
-              We are committed to offering our customers seamless, reliable, and
-              personalized travel solutions that exceed expectations.
+              We are immigration consultants and assist our clients in
+              submitting visa applications of the highest quality.
             </p>
 
             <p className="card-text mission-right-card-text mb-2">
-              Our dedicated team strives to create dream vacations where
-              travelers can explore new destinations and cultures while creating
-              lasting memories.
+              Call us on (+353) 874797439 for immediate support and advice with
+              your immigration case. We can speak over the phone or by zoom and
+              google meet.
             </p>
 
             <p className="card-text mission-right-card-text mb-2">
-              We partner with top-notch suppliers and accommodations to ensure
-              our clients experience the utmost comfort and satisfaction during
-              their travels.
-            </p>
-
-            <p className="card-text mission-right-card-text mb-2">
-              Our friendly staff is here to make your travel planning
-              stress-free and enjoyable, providing expert advice and
-              personalized recommendations.
+              What'sApp: +353874797439 https://wa.me/message/HAIECD27SCPOB1
+              info@equalityimmigration.ie
             </p>
 
             <p className="card-text mission-right-card-text mb-2">

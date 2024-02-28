@@ -1,5 +1,5 @@
 import "./missionLeft.css";
-import missionImg from "../Img/missionImg.png";
+import whyChooseUs from "../Img/whyChooseUs.png";
 
 function MissionLeft() {
   return (
@@ -8,7 +8,7 @@ function MissionLeft() {
         <div class="card mission-left-card">
           <div class="card-body mission-left-card-body">
             <img
-              src={missionImg}
+              src={whyChooseUs}
               class="card-img-top mission-left-img"
               alt="..."
             />

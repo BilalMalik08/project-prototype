@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
 
+
 }
 
 .navbar {
     z-index: 1;
     position: fixed;
-    background-color: #052d5dc6;
+    background-color: navy;
     height: 10vh;
     z-index: 1;
 
@@ -22,7 +23,7 @@
 }
 
 .nav-item .nav-link {
-    color: black;
+    color: white;
 }
 
 
