@@ -1,11 +1,11 @@
-import "./phoneLeft.css";
-import phone from "../Img/phone.png";
-import phoneVideo from "../video/phonevideo.mp4";
+import "./heroMidLeft.css";
+import phone from "../../Img/phone.png";
+import phoneVideo from "../../video/phonevideo.mp4";
 
-function PhoneLeft() {
+function HeroMidLeft() {
   return (
     <>
-      <div className="container phoneLeft-container">
+      <div className="container hero-mid-left-container">
         <div className="phone">
           <img src={phone} alt="" />
           <div className="phone-screen">
@@ -19,4 +19,4 @@ function PhoneLeft() {
   );
 }
 
-export default PhoneLeft;
+export default HeroMidLeft;

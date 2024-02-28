@@ -1,10 +1,10 @@
 import "./menuCard.css";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import advicePackage from "../Img/advicePackage.png";
-import applicationPackage from "../Img/applicationPackage.png";
-import premiumPackage from "../Img/premiumPackage.png";
-import documentCheckPackage from "../Img/documentCheckPackage.png";
+import advicePackage from "../../Img/advicePackage.png";
+import applicationPackage from "../../Img/applicationPackage.png";
+import premiumPackage from "../../Img/premiumPackage.png";
+import documentCheckPackage from "../../Img/documentCheckPackage.png";
 
 function MenuCard() {
   const [ourPackage, setOurPackage] = useState([

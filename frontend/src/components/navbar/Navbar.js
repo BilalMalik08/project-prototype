@@ -1,5 +1,5 @@
 import "./navbar.css";
-import travelLogo from "../Img/travelLogo.png";
+import travelLogo from "../../Img/travelLogo.png";
 import { Link } from "react-router-dom";
 import React from "react";
 

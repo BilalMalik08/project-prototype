@@ -1,11 +1,11 @@
-import "./carousel.css";
-import travel3 from "../Img/travel3.jpg";
-import travel5 from "../Img/travel5.jpg";
-import travel6 from "../Img/travel6.jpg";
-import travel7 from "../Img/travel7.jpg";
+import "./heroCarousel.css";
+import travel3 from "../../Img/travel3.jpg";
+import travel5 from "../../Img/travel5.jpg";
+import travel6 from "../../Img/travel6.jpg";
+import travel7 from "../../Img/travel7.jpg";
 import { useState, useEffect } from "react";
 
-function Carousel() {
+function HeroCarousel() {
   const [showCaption, setShowCaption] = useState(false);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ function Carousel() {
   }, []);
   return (
     <>
-      <div className="row carousel-row1">
+      <div className="row hero-carousel-row1">
         <div
           id="carouselExampleSlidesOnly"
           className="carousel slide"
@@ -52,4 +52,4 @@ function Carousel() {
   );
 }
 
-export default Carousel;
+export default HeroCarousel;

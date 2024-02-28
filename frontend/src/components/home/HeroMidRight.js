@@ -1,14 +1,14 @@
-import "./diningRight.css";
-import ireland from "../Img/5ireland.jpg";
+import "./heroMidRight.css";
+import ireland from "../../Img/5ireland.jpg";
 
-function DiningRight() {
+function HeroMidRight() {
   return (
-    <div className="container dining-right-container">
-      <div className="card dining-right-card">
-        <div className="card-body dining-right-card-body">
+    <div className="container hero-mid--right-container">
+      <div className="card hero-mid--right-card">
+        <div className="card-body hero-mid--right-card-body">
           <img
             src={ireland}
-            className="card-img-top dining-right-img"
+            className="card-img-top hero-mid--right-img"
             alt="..."
           />
           <div className="image-overlay">
@@ -23,4 +23,4 @@ function DiningRight() {
   );
 }
 
-export default DiningRight;
+export default HeroMidRight;
