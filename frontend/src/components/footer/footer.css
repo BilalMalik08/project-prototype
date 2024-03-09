@@ -1,27 +1,42 @@
 .footer-row {
-    height: 5vh;
-    text-align: center;
+    height: 8vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     color: white;
     background-color: black;
     cursor: default;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 820px) {
-
-
-    .footer-h6 {
-        font-size: 1.3rem;
-    }
+.footer-h6 {
+    font-size: 1rem;
 }
 
+.social-links {
+    display: flex;
+    gap: 10px;
+}
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+.social-links span {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
 
+.social-links span:hover {
+    opacity: 0.7;
+}
 
-    .footer-h6 {
-        font-size: 0.9rem;
-    }
+.social-links span:hover svg {
+    transform: scale(1.2);
+}
+
+/* Apply color to specific social media icons on hover */
+.social-links span:hover .fa-facebook {
+    color: #417bf8;
+}
+
+.social-links span:hover .fa-instagram {
+    color: #c13584;
 }

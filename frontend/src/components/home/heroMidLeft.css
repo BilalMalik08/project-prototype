@@ -19,7 +19,7 @@
     width: 282px;
     height: 590px;
     position: absolute;
-    border: 5px solid black;
+    border: 5px solid white;
     border-radius: 27px;
     overflow: scroll;
 }
@@ -32,6 +32,7 @@
     height: 100%;
     width: 100%;
     background-color: black;
+
 }
 
 
