@@ -51,7 +51,7 @@ function Navbar() {
                   <Link className="nav-link" to="/contact">
                     Contact us
                   </Link>
-                </li>{" "}
+                </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/reviews">
                     Reviews

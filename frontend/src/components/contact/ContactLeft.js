@@ -3,42 +3,43 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
   faEnvelope,
-  faLocationDot,
-  faHotel,
+  faMapMarkerAlt,
+  faBuilding,
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 function ContactLeft() {
   return (
     <>
-      <div className="container contact-list-container">
-        <ul className="list-group">
-          <li className="list-group-item">
-            <FontAwesomeIcon icon={faPhone} className="contactLeft-icon" />
-            {"Contact 1: +92 3457265250"}
-          </li>{" "}
-          <li className="list-group-item">
-            <FontAwesomeIcon icon={faPhone} className="contactLeft-icon" />
-            {"Contact 2: +92 3303729680"}
+      <div className="container contact-left-list-container">
+        <ul className="list-group contact-left-list-group">
+          <li className="list-group-item contact-left-list-group-item">
+            <FontAwesomeIcon icon={faPhone} className="contact-left-icon" />
+            {"Call Us: (+353) 874797439"}
           </li>
-          <li className="list-group-item">
-            <FontAwesomeIcon icon={faEnvelope} className="contactLeft-icon" />
-            {"Email: fastfood@gmail.com"}
+          <li className="list-group-item contact-left-list-group-item">
+            <FontAwesomeIcon icon={faWhatsapp} className="contact-left-icon" />
+            {"Whatsapp: +353874797439"}
           </li>
-          <li className="list-group-item">
+          <li className="list-group-item contact-left-list-group-item">
+            <FontAwesomeIcon icon={faEnvelope} className="contact-left-icon" />
+            {"Email: equalityimmigration@gmail.com"}
+          </li>
+          <li className="list-group-item contact-left-list-group-item">
             <FontAwesomeIcon
-              icon={faLocationDot}
-              className="contactLeft-icon"
+              icon={faMapMarkerAlt}
+              className="contact-left-icon"
             />
-            {"Location: Abbottabad"}
+            {"Location: Ireland"}
           </li>
-          <li className="list-group-item">
-            <FontAwesomeIcon icon={faHotel} className="contactLeft-icon" />
-            {"Address: Jadoon Plaza Phase II"}
+          <li className="list-group-item contact-left-list-group-item">
+            <FontAwesomeIcon icon={faBuilding} className="contact-left-icon" />
+            {"Address: XYZ"}
           </li>
-          <li className="list-group-item">
-            <FontAwesomeIcon icon={faClock} className="contactLeft-icon" />
-            {"Timings: 10Am to 1AM"}
+          <li className="list-group-item contact-left-list-group-item">
+            <FontAwesomeIcon icon={faClock} className="contact-left-icon" />
+            {"Timings: XYZ"}
           </li>
         </ul>
       </div>

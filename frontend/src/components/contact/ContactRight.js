@@ -6,10 +6,10 @@ function ContactRight() {
       <div className="container map-container">
         <iframe
           className="google-map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.309073272243!2d73.23334311477069!3d34.18957868056875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38de3050d3f2d077%3A0xc60029e9e1da82aa!2sJadoon%20Plaza%20Phase%202!5e0!3m2!1sen!2s!4v1672115550762!5m2!1sen!2s"
-          allowfullscreen=""
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88527.82418490424!2d-6.260308239833766!3d53.349805293038155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9c47d06213%3A0x20a5bb501067001!2sDublin%2C%20Ireland!5e0!3m2!1sen!2sus!4v1672129293643!5m2!1sen!2sus"
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
     </>

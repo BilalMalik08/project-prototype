@@ -9,16 +9,12 @@
     margin-top: 25px;
     cursor: default;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Add text shadow */
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
-    /* Add transition for transform and color */
 }
 
 .about-heading:hover {
     transform: translateY(-5px);
-    /* Move up slightly on hover */
     color: #ffc107;
-    /* Change text color on hover */
 }
 
 .about-row2 {

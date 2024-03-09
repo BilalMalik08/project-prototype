@@ -1,12 +1,23 @@
 .map-container {
-    height: 73vh;
+    height: 100%;
     width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .google-map {
-    height: 95%;
+    height: 100%;
     width: 100%;
-    border-radius: 15px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.map-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 

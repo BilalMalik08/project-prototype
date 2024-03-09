@@ -1,41 +1,54 @@
-.contact-list-container {
-    height: 73vh;
-}
-
-.list-group {
+.contact-left-list-container {
     height: 100%;
     width: 100%;
 }
 
-.list-group-item {
-    margin: 20px 0px;
+.contact-left-list-group {
+    height: 100%;
+    width: 100%;
+
 }
 
-.suggestion-box {
-    height: 18vh;
-    padding-left: 18px;
+.contact-left-list-group-item {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    text-align: left;
 }
 
-.suggestion-box::placeholder {
-    color: black;
+.contact-left-list-group-item:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contactLeft-icon {
-    margin: 0px 10px;
+.contact-left-icon {
+    margin-right: 10px;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.contact-left-list-group-item:hover .contact-left-icon {
+    color: #0056b3;
 }
 
 
 
 
 @media only screen and (min-width: 481px) and (max-width: 820px) {
-    .contact-list-container {
+    .contact-left-list-container {
         height: 45vh;
     }
 }
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-    .contact-list-container {
+    .contact-left-list-container {
         height: 65vh;
     }
 }
