@@ -1,0 +1,39 @@
+.about-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-right-card {
+    background: transparent;
+    border: none;
+    width: 100%;
+}
+
+.about-right-card-body {
+    font-weight: bolder;
+    color: white;
+}
+
+.about-right-card-title {
+    text-align: right;
+    cursor: default;
+}
+
+.about-right-card-text {
+    text-align: right;
+    font-size: 18px;
+    cursor: default;
+}
+
+.about-right-card-img-top {
+    height: 50vh;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-right-container:hover {
+    transform: scale(1.05);
+}

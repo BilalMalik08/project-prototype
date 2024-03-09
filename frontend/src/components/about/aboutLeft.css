@@ -1,0 +1,39 @@
+.about-left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-left-card {
+    background: transparent;
+    border: none;
+    width: 100%;
+}
+
+.about-left-card-body {
+    font-weight: bolder;
+    color: white;
+}
+
+.about-left-card-title {
+    text-align: left;
+    cursor: default;
+}
+
+.about-left-card-text {
+    text-align: left;
+    font-size: 18px;
+    cursor: default;
+}
+
+.about-left-card-img-top {
+    height: 50vh;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-left-container:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,93 @@
+.about-bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-bottom-card {
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.about-bottom-card-body {
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+
+}
+
+.about-bottom-card-title {
+    text-align: center;
+    cursor: default;
+    margin-bottom: 20px;
+}
+
+.about-bottom-card-text {
+    text-align: center;
+    font-size: 16px;
+    cursor: default;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.about-bottom-card-img-top {
+    height: 70vh;
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    object-fit: cover;
+}
+
+
+.about-bottom-container:hover .about-bottom-card-text {
+    transform: translateY(5px);
+    opacity: 0.9;
+}
+
+.about-bottom-container:hover .about-bottom-card-img-top {
+    transform: scale(0.98);
+    opacity: 0.9;
+}
+
+@keyframes changeColor {
+    0% {
+        color: #fff;
+    }
+
+    50% {
+        color: #ffc107;
+    }
+
+    100% {
+        color: #fff;
+    }
+}
+
+.about-bottom-container:hover .about-bottom-card-body {
+    animation: changeColor 2s infinite;
+}
+
+.about-bottom-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.about-bottom-container:hover .about-bottom-card::after {
+    opacity: 1;
+}
