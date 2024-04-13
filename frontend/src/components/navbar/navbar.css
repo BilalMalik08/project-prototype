@@ -26,6 +26,31 @@
     color: white;
 }
 
+.btn-light {
+    color: gray;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn-light:hover {
+    color: black;
+}
+
+.btn-navy {
+    background-color: navy;
+    color: gray;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn-navy:hover {
+    color: white;
+}
+
 
 
 @media only screen and (min-width: 481px) and (max-width: 820px) {
